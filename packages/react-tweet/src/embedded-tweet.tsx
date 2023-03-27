@@ -22,8 +22,6 @@ export const EmbeddedTweet = ({ tweet, components }: Props) => (
     {tweet.mediaDetails?.length ? (
       <TweetMedia tweet={tweet} components={components} />
     ) : null}
-    <TweetInfo tweet={tweet} />
-    <TweetActions tweet={tweet} />
-    <TweetReplies tweet={tweet} />
+   
   </TweetContainer>
 )
