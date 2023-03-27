@@ -75,17 +75,7 @@ export const TweetHeader = ({ tweet, components }: Props) => {
               @{tweet.user.screen_name}
             </span>
           </a>
-          <div className={s.authorFollow}>
-            <span className={s.separator}>·</span>
-            <a
-              href={getFollowUrl(tweet)}
-              className={s.follow}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Follow
-            </a>
-          </div>
+           
         </div>
       </div>
       <a
